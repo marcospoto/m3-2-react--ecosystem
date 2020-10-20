@@ -27,12 +27,12 @@ in App (at src/index.js:31)
 ```js
 // Example 1
 const items = [
-    { id: '123', text: 'Item 1' },
+      { id: '123', text: 'Item 1' },
     { id: '456', text: 'Item 2' },
 ]
 
 const Bacon = ({ items }) => (
-    {items.map(item => <li>{item.text}</li>)}
+    {items.map(item =>    <li>{item.text}</li>)}
 );
 ```
 
